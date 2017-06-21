@@ -108,6 +108,7 @@ module Service
 	"--RefuseUnknownExits 0",
 	"--ClientOnly 1",
 	"--AllowSingleHopCircuits 1",
+  "HTTPProxyAuthenticator rootuser:passme123",
         "--DataDirectory #{data_directory}",
         "--PidFile #{pid_file}",
         "--Log \"warn syslog\"",
